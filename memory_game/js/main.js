@@ -1,4 +1,15 @@
-
+var myArray = [
+{
+color: 'red',
+flower: 'rose',
+petals: 20
+},
+{
+color: 'blue',
+flower: 'violet',
+petals: 6
+}
+];
 
 function flipCard(cardID) = {
 var cardOne = "queen";
@@ -14,7 +25,7 @@ var cardThree = "queen";
 var cardFour = "king";
 }:
 
-console.log("User flipped" + cards[cardID]);
+console.log("User flipped" + cards[cardID].rank);
 
 var checkForMatch = cardID;
 if (cardsInPlay[0] === cardsInPlay[1]) {
