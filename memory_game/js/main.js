@@ -33,3 +33,15 @@ if (cardsInPlay[0] === cardsInPlay[1]) {
 } else {
   console.log("Sorry, try again.");
 }
+
+function createBoard() = {
+for (var i = 0; i < arrayName.length; i++) {
+ var cardElement = document.createElement('img');
+ cardElement.setAttribute('attributeName', 'attributeValue');
+}
+};
+
+
+
+
+
