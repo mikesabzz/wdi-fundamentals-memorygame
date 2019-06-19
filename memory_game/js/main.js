@@ -1,12 +1,19 @@
 
 
+function flipCard(cardID) = {
 var cardOne = "queen";
 var cardTwo = "king";
 var cardThree = "queen";
 var cardFour = "king";
+};
 
+function checkForMatch(cardID) = {
+var cardOne = "queen";
+var cardTwo = "king";
+var cardThree = "queen";
+var cardFour = "king";
+}:
 
-var flipCard = cardID;
 console.log("User flipped" + cards[cardID]);
 
 var checkForMatch = cardID;
